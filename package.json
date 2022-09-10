@@ -1,0 +1,24 @@
+{
+  "name": "hello-threejs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "element-ui": "^2.15.100",
+    "sass": "^1.54.8",
+    "three": "^0.144.0",
+    "vue": "^2.6.14",
+    "vue-router": "3.6.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "postcss-import": "^15.0.0",
+    "vite": "^3.0.7"
+  }
+}

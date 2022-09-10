@@ -1,0 +1,43 @@
+@import url('./reset.scss');
+// 通用间距
+$edge-distances: 4, 5, 6, 8, 10, 12, 15, 20, 25, 26, 30, 35, 40, 50, 80;
+$border-distances: 4, 5, 6, 8, 10;
+
+@each $val in $edge-distances {
+	.mg-#{$val} {
+		margin: #{$val}px;
+	}
+	.pd-#{$val} {
+		padding: #{$val}px;
+	}
+	.mgl-#{$val} {
+		margin-left: #{$val}px;
+	}
+	.mgr-#{$val} {
+		margin-right: #{$val}px;
+	}
+	.mgt-#{$val} {
+		margin-top: #{$val}px;
+	}
+	.mgb-#{$val} {
+		margin-bottom: #{$val}px;
+	}
+	.pdl-#{$val} {
+		padding-left: #{$val}px;
+	}
+	.pdr-#{$val} {
+		padding-right: #{$val}px;
+	}
+	.pdt-#{$val} {
+		padding-top: #{$val}px;
+	}
+	.pdb-#{$val} {
+		padding-bottom: #{$val}px;
+	}
+}
+
+@each $val in $border-distances {
+	.br-#{$val} {
+		border-radius: #{$val}px;
+	}
+}
