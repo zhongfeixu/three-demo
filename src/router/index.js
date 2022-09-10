@@ -18,6 +18,13 @@ export const routes = [
 		component: () => import("@/views/demo.vue"),
 		name: "简易demo",
 		meta: { title: "简易demo" }
+	},
+	,
+	{
+		path: "/earth",
+		component: () => import("@/views/earth.vue"),
+		name: "earth",
+		meta: { title: "地球" }
 	}
 ];
 
